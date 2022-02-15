@@ -1,0 +1,70 @@
+/*pagina toda*/
+*{
+    font-family:monospace;
+    background: hsl(241, 51%, 69%);
+}
+
+/* config menu de nav*/
+
+nav {
+    text-align:left;
+    color: rgb(20, 238, 198);
+    font-size: 20px;
+    
+}
+
+a{
+    color: black;
+}
+
+header{
+    font-style: italic ;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+}
+img{
+    width: 20%;
+    border-radius: 30px;
+}
+
+/* Style de contato*/
+
+button{
+    border-radius: 30px;
+
+    
+}
+
+input{
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+textarea{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+form{
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px ;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.rodape{
+    font-style: italic ;
+    font-weight: bold;
+    text-align: center;
+}
